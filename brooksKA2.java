@@ -4,9 +4,9 @@
 public class brooksKA2 {
     public static void main(String[] args) {
         // Create four wrestler objects (two on each team)
-        WrestlingMatchEntry wrestler1 = new WrestlingMatchEntry("John");
+        WrestlingMatchEntry wrestler1 = new HeavyWeightWrestlerEntry("John");
         WrestlingMatchEntry wrestler2 = new LightWeightWrestlerEntry("Alex"); // Lightweight wrestler
-        WrestlingMatchEntry wrestler3 = new WrestlingMatchEntry("Mike");
+        WrestlingMatchEntry wrestler3 = new HeavyWeightWrestlerEntry("Mike");
         WrestlingMatchEntry wrestler4 = new LightWeightWrestlerEntry("Sam"); // Lightweight wrestler
 
         // Create CircularlyLinkedList data structures to hold each team 
